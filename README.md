@@ -10,7 +10,7 @@ My application will find recipes for you. All you gotta do is type one ingredien
 The API I will be using https://api.edamam.com/api/recipes/v2?type=public&q=fish&app_id=9b02ade8&app_key=%20419e6ffc89c8212db39eb51d35469517
 
 ## Wireframes:
-
+This is the link to my wireframe https://whimsical.com/project-1-wireframe-6iMaRfZ2t2uz31ryP4L3Gi
 
 ## MVP:
 - Search button
@@ -28,11 +28,11 @@ The API I will be using https://api.edamam.com/api/recipes/v2?type=public&q=fish
 - Different Sections within the application such as "Baking, Grilling and Smoking, Quick Recipes, Home Kitchen, and Party Recipes.
 
 ## Goals: 
-Monday thru Thursday I would want to be done with Html and Javascript parts, and Thursday to Sunday, I would mainly be working on styling my website to make sure it looks presentable.
+Monday through Thursday I would want to be done with Html and Javascript parts, and Thursday to Sunday, I would mainly be working on styling my website to make sure it looks presentable.
 
 
 ## Priority Matrix:
-A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as [Cloudinary](https://cloudinary.com/) or a similar hosting service.
+![Imgur](https://i.imgur.com/rXIvPp5.png)
 
 ## Timeframes:
 |Task | Time Expected | Actual Time|
@@ -45,6 +45,8 @@ A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, 
 |JS API Nutrition Values | 2 | N/A|
 |JS API Recipe Name | 2 | N/A|
 |JS Clean up | 3 | N/A|
+|CSS HTML header and search bar | 1 | N/A|
+|CSS HTML Main Content Display| 2 | N/A|
 |CSS HTML Containers | 2 | N/A|
 |CSS Colors | 2 | N/A|
 |CSS Align Content| 3| N/A|
@@ -52,4 +54,4 @@ A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, 
 |JS add extra features| 3 | N/A|
 |CSS Testing | 2 | N/A|
 |Js Testing | 2 | N/A|
-|**TOTAL TIME**| 33.5|N/A|
+|**TOTAL TIME**| 36.5|N/A|
