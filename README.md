@@ -13,12 +13,12 @@ The API I will be using https://api.edamam.com/api/recipes/v2?type=public&q=fish
 
 
 ## MVP:
--Search button
--Input Text field
--Give the client a list of recipes
--Pictures of Recipes
--Ingredients needed for recipes
--Nutrition Values
+- Search button
+- Input Text field
+- Give the client a list of recipes
+- Pictures of Recipes
+- Ingredients needed for recipes
+- Nutrition Values
 
 ## Post-MVP:
 When name of recipe clicked, take you to a website that has the instructions for them.
