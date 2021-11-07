@@ -21,11 +21,11 @@ The API I will be using https://api.edamam.com/api/recipes/v2?type=public&q=fish
 - Nutrition Values
 
 ## Post-MVP:
-When name of recipe clicked, take you to a website that has the instructions for them.
-Clients to be able to save thier favorite recipes
-Clients to be able to upload their own recipes
-Profiles for every client
-Different Sections within the application such as "Baking, Grilling and Smoking, Quick Recipes, Home Kitchen, and Party Recipes.
+- When name of recipe clicked, take you to a website that has the instructions for them.
+- Clients to be able to save thier favorite recipes
+- Clients to be able to upload their own recipes
+- Profiles for every client
+- Different Sections within the application such as "Baking, Grilling and Smoking, Quick Recipes, Home Kitchen, and Party Recipes.
 
 ## Goals: 
 Monday thru Thursday I would want to be done with Html and Javascript parts, and Thursday to Sunday, I would mainly be working on styling my website to make sure it looks presentable.
