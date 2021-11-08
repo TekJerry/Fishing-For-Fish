@@ -9,6 +9,8 @@ My application will find recipes for you. All you gotta do is type one ingredien
 ## API Snippet:
 The API I will be using https://api.edamam.com/api/recipes/v2?type=public&q=fish&app_id=9b02ade8&app_key=%20419e6ffc89c8212db39eb51d35469517
 
+![Imgur](https://i.imgur.com/YhbXlgb.png)
+
 ## Wireframes:
 This is the link to my wireframe https://whimsical.com/project-1-wireframe-6iMaRfZ2t2uz31ryP4L3Gi
 
