@@ -30,7 +30,7 @@ body {
   border: 4px solid blue;
   margin: 10px;
   padding: 10px;
-  max-width: 80%;
+  width: 900px;
 }
 
 
@@ -48,6 +48,13 @@ body {
   border: 4px solid white;
 }
 
+section {
+  display:flex;
+  flex-flow: column nowrap;
+  border: 8px solid red;
+  width: 80%;
+}
+
 section h2 {
   display: flex;
   max-height: fit-content;
@@ -56,15 +63,12 @@ section h2 {
 
 section li {
   display: flex;
-  max-height: 200px;
+  justify-content:;
+  max-width: fit-content;
+  height: 200px;
   border: 4px solid rgb(5, 238, 255);
 }
 
-section {
-  display:flex;
-  flex-flow: column nowrap;
-  border: 8px solid red
-}
 
 #footer {
   display: flex;
