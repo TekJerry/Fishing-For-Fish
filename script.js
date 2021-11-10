@@ -30,33 +30,40 @@ async function fetchData(recipe) {
 
 function showRecipeData(data) {
   console.log(data)
-  // creates the names for the recipes and appends it to the recipe container div
-  const eachRecipe = document.createElement("div")
-  eachRecipe.className = "each-recipe";
+
+  data.hits.forEach((recipe) => {
+    //   // creates the names for the recipes and appends it to the recipe container div
+    const eachRecipe = document.createElement("div")
+    eachRecipe.className = "each-recipe";
+
+    const recipeImg = document.createElement("img")
+    recipeImg.className = "recipe-image"
+    recipeImg.src = recipe.recipe.image;
+    eachRecipe.appendChild(recipeImg);
 
 
-  const recipeImg = document.createElement("img")
-  recipeImg.className = "recipe-image"
-  recipeImg.src = data.hits[0].recipe.image;
-  eachRecipe.appendChild(recipeImg);
+    const infoRecipe = document.createElement("section")
+    const dailyInfo = document.createElement("ul")
+    eachRecipe.appendChild(infoRecipe);
+    recipeData.appendChild(eachRecipe);
+    infoRecipe.appendChild(dailyInfo);
 
 
-  const infoRecipe = document.createElement("section")
-  eachRecipe.appendChild(infoRecipe);
-  recipeData.appendChild(eachRecipe);
+    const recipeName = document.createElement("h2")
+    recipeName.className = "recipe-label"
+    recipeName.innerText = recipe.recipe.label;
+    infoRecipe.appendChild(recipeName);
+
+    let ingredients = recipe.recipe.ingredientLines;
+    ingredients.forEach((ingredient) => {
+      console.log(ingredient)
+
+      const recipeIngredients = document.createElement("li");
+      recipeIngredients.className = "recipe-ingredients"
+      recipeIngredients.innerText = ingredient;
+      dailyInfo.appendChild(recipeIngredients);
+    })
 
 
-  const recipeName = document.createElement("h2")
-  recipeName.className = "recipe-label"
-  recipeName.innerText = `${data.hits[0].recipe.label}`;
-  infoRecipe.appendChild(recipeName);
-
-
-  const recipeIngredients = document.createElement("li");
-  recipeIngredients.className = "recipe-ingredients"
-  recipeIngredients.innerText = data.hits[0].recipe.ingredientLines[0];
-  infoRecipe.appendChild(recipeIngredients);
-
-
+  })
 }
-
