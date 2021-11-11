@@ -62,7 +62,21 @@ function showRecipeData(data) {
       recipeIngredients.className = "recipe-ingredients"
       recipeIngredients.innerText = ingredient;
       dailyInfo.appendChild(recipeIngredients);
+
+
     })
+    let nutritionValues = document.createElement("article");
+    let nutritionTitle = document.createElement("h3")
+    let nutritionNums = document.createElement("p")
+    nutritionValues.className = "nutrition-values"
+
+    nutritionTitle.innerText = "Nutrition Values";
+    nutritionValues.appendChild(nutritionTitle);
+
+    nutritionNums.innerText = `Carbs: ${Math.round(recipe.recipe.totalDaily.CHOCDF.quantity)} Total Calories: ${Math.round(recipe.recipe.calories)}`;
+    nutritionValues.appendChild(nutritionNums);
+
+    infoRecipe.appendChild(nutritionValues);
 
 
   })
