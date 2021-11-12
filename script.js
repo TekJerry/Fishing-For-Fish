@@ -73,7 +73,7 @@ function showRecipeData(data) {
     nutritionTitle.innerText = "Nutrition Values";
     nutritionValues.appendChild(nutritionTitle);
 
-    nutritionNums.innerText = `Carbs: ${Math.round(recipe.recipe.totalDaily.CHOCDF.quantity)} Total Calories: ${Math.round(recipe.recipe.calories)}`;
+    nutritionNums.innerText = `Carbs: ${Math.round(recipe.recipe.totalDaily.CHOCDF.quantity)}   Total Calories: ${Math.round(recipe.recipe.calories)}`;
     nutritionValues.appendChild(nutritionNums);
 
     infoRecipe.appendChild(nutritionValues);
