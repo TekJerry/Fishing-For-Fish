@@ -17,10 +17,11 @@ This is the link to my wireframe https://whimsical.com/project-1-wireframe-6iMaR
 ## MVP:
 - Search button
 - Input Text field
-- Give the client a list of recipes
-- Pictures of Recipes
-- Ingredients needed for recipes
-- Nutrition Values
+- Give the client a list of recipes (Fetching this data from an API)
+- Pictures of Recipes (Fetching this data from an API)
+- Ingredients needed for recipes (Fetching this data from an API)
+- Nutrition Values (Fetching this data from an API)
+- Using flex box make an organized website.
 
 ## Post-MVP:
 - When name of recipe clicked, take you to a website that has the instructions for them.
@@ -43,23 +44,23 @@ This is the link to my wireframe https://whimsical.com/project-1-wireframe-6iMaR
 ![Imgur](https://i.imgur.com/rXIvPp5.png)
 
 ## Timeframes:
-|Task | Time Expected | Actual Time|
+|Task | Time Expected (hrs)| Actual Time (hrs)|
 |--- | --- | ---|
-| Getting API to work| 2.5 hrs |N/A |
-|Html body| 2 | N/A|
-|JS search Listen | 2 | N/A|
-|JS creating Elements | 2 | N/A|
-|JS API images| 2 | N/A|
-|JS API Nutrition Values | 2 | N/A|
-|JS API Recipe Name | 2 | N/A|
-|JS Clean up | 3 | N/A|
-|CSS HTML header and search bar | 1 | N/A|
-|CSS HTML Main Content Display| 2 | N/A|
-|CSS HTML Containers | 2 | N/A|
-|CSS Colors | 2 | N/A|
-|CSS Align Content| 3| N/A|
-|JS errors | 2 | N/A|
-|JS add extra features| 3 | N/A|
-|CSS Testing | 2 | N/A|
-|Js Testing | 2 | N/A|
-|**TOTAL TIME**| 36.5|N/A|
+| Getting API to work| 2.5  |4 |
+|Html body| 2 | 1 |
+|JS search Listen | 2 | 1|
+|JS creating Elements | 2 | 5|
+|JS API images| 2 | 3|
+|JS API Nutrition Values | 2 | 3|
+|JS API Recipe Name | 2 | 1|
+|JS Clean up | 3 | 2.5|
+|CSS HTML header and search bar | 1 | 1|
+|CSS HTML Main Content Display| 2 | 1|
+|CSS HTML Containers | 2 | 2|
+|CSS Colors | 2 | 2|
+|CSS Align Content| 3| 4|
+|JS errors | 2 | 2|
+|JS add extra features| 3 | 1|
+|CSS Testing | 2 | 3|
+|Js Testing | 2 | 2|
+|**TOTAL TIME**| 36.5|38.5|
