@@ -23,7 +23,7 @@ async function fetchData(recipe) {
   } catch (error) {
     console.log(error);
   } finally {
-    console.log("dUn");
+    console.log("done");
   }
 }
 
