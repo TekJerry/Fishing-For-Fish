@@ -33,10 +33,10 @@ This is the link to my wireframe https://whimsical.com/project-1-wireframe-6iMaR
 ## Goals: 
 |  Day | Deliverable | Status
 |---|---| ---|
-|November 5-7| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|November 8| Project Approval | Incomplete
-|November 8-9| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|November 9-14| Pseudocode / actual code | Incomplete
+|November 5-7| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|November 8| Project Approval | Complete
+|November 8-9| Core Application Structure (HTML, CSS, etc.) | Complete
+|November 9-14| Pseudocode / actual code | Complete
 |November 15| Presentations | Incomplete
 
 
