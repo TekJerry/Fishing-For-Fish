@@ -291,7 +291,6 @@ body {
   flex-flow: column;
   align-content:center;
   background: #f8b12c;
-  border: 3px solid red;
 }
 
 #recipe-data div{
