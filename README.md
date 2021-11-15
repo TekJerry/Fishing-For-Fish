@@ -1,4 +1,4 @@
-# Project #1: Just Add Salt
+# [Just Add Salt](https://tekjerry.github.io/Just-Add-Salt/)
 
 ## App Title:
 Just Add Salt
