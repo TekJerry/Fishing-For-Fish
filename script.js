@@ -27,10 +27,13 @@ async function fetchData(recipe) {
   }
 }
 
+function removeSearch() {
+  recipeData.innerHTML = "";
+}
 
 function showRecipeData(data) {
   console.log(data)
-
+  removeSearch();
   data.hits.forEach((recipe) => {
     //   // creates the names for the recipes and appends it to the recipe container div
     const eachRecipe = document.createElement("div")
